@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:id="@+id/layoutContainer" android:orientation="horizontal"
+    android:background="#FAEBD7" android:baselineAligned="true">
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.7">
+
+        <Button
+            android:text="Login"
+            android:background="@drawable/mybutton"
+            android:id="@+id/button1"
+            android:textSize="27sp"
+            android:textColor="#FAEBD7"
+            android:onClick="mania"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="50dp">
+        </Button>
+
+        <Button
+            android:text="Register"
+            android:layout_width="fill_parent"
+            android:background="@drawable/mybutton"
+            android:textSize="27sp"
+            android:layout_height="wrap_content"
+            android:onClick="mania"
+            android:id="@+id/button2"
+            android:textStyle="bold"
+            android:textColor="#FAEBD7"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/button1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        </Button>
+
+        <Button
+            android:text="Settings"
+            android:layout_width="fill_parent"
+            android:background="@drawable/mybutton"
+            android:textStyle="bold"
+            android:textSize="27sp"
+            android:layout_height="wrap_content"
+            android:onClick="mania"
+            android:id="@+id/button3"
+            android:textColor="#FAEBD7"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        </Button>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15">
+    </RelativeLayout>
+</LinearLayout>
